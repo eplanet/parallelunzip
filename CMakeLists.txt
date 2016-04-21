@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 2.6)
+SET(GPP_C11 "-std=c++11")
+add_definitions(${GPP_C11})
+project (ParallelUnzip)
+include(CTest)
+add_subdirectory(src)
+add_subdirectory(test)
